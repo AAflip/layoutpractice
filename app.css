@@ -64,7 +64,6 @@ aside{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
 }
 
 #green-card h3{
@@ -94,9 +93,18 @@ aside{
 .cards{
     background-color: #f2f2f2;
     margin: 4em 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 .cards a{
     text-decoration: none;
     color: white;
+    align-self: center;
+    padding: 1em 2em;
+    border-radius: 6px;
+}
+
+.cards h3{
+    margin-left: 1em;
 }
