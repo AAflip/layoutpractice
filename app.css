@@ -290,3 +290,8 @@ textarea{
     flex-direction: column;
     width: calc(96% / 2);
 }
+
+.inv{
+    color: transparent;
+    position: absolute;
+}
