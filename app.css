@@ -25,6 +25,12 @@ nav .button{
     border: 2px solid #5a6372;
     text-decoration: none;
     color: white;
+    padding: 0.5em 1em;
+    margin-right: 1em;
+}
+
+.non-but{
+    margin-right: 0;
 }
 
 .active{
@@ -50,10 +56,24 @@ aside{
 
 #img-1{
     background-image: url("Layout01Assets/img11.jpg");
+    padding: 9em 0;
+    background-position: bottom center;
 }
 
 #img-2{
     background-image: url("Layout01Assets/img13.jpg");
+    padding: 3em 0;
+}
+
+#img-2 p{
+    color: white;
+    max-width: 650px;
+    text-align: center;
+}
+
+.hero h2{
+    color: white;
+    text-shadow: 2px 2px 3px gray;
 }
 
 #img-3{
@@ -95,6 +115,12 @@ aside{
     margin: 4em 1em;
     display: flex;
     flex-direction: column;
+    max-width: 360px;
+}
+
+.cards p{
+    margin: 0 1.25em;
+    margin-bottom: 2em;
 }
 
 .cards a{
@@ -103,8 +129,164 @@ aside{
     align-self: center;
     padding: 1em 2em;
     border-radius: 6px;
+    margin-bottom: 2em;
 }
 
 .cards h3{
     margin-left: 1em;
+}
+
+.med-cards{
+    display: flex;
+    flex-direction: column;
+    margin: 0 calc(2% / 2);
+    margin-bottom: 3em;
+    background-color: #f2f2f2;
+    max-width: 555px;
+}
+
+.med-cards h3{
+    text-align: center;
+}
+
+.med-cards p{
+    margin: 2em;
+    margin-top: 0;
+}
+
+.med-cards a{
+    align-self: flex-end;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 1em 2em;
+    border-radius: 6px;
+    margin: 0 3em 1em 0;
+    color: black;
+}
+
+.fourths{
+    display: flex;
+    justify-content: center;
+}
+
+.card4{
+    margin: 3em calc(4.75% / 4);
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 260px;
+}
+
+.card4 p{
+    margin: 0 1em;
+    margin-bottom: 2em;
+}
+
+.card4 a{
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 1em 2em;
+    border-radius: 6px;
+    margin-bottom: 1em;
+    color: black;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.big-col{
+    align-self: center;
+    background-color: #f2f2f2;
+    margin-bottom: 3em;
+}
+
+.big-col img{
+    width: 100%;
+}
+
+.big-text{
+    margin: 2em;
+    max-width: 1140px;
+}
+
+.big-text p{
+    margin-bottom: 3em;
+}
+
+.big-text a{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: black;
+    padding: 1em 2em;
+    border-radius: 6px;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+}
+
+.sect2{
+    font-style: normal;
+}
+
+.img-3-stuff{
+    display: flex;
+    flex-direction: row;
+    max-width: 790px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+input[type="text"]{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 6px;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5em 0;
+    align-self: flex-end;
+    width: 3%;
+    margin: 1em 0;
+    margin-right: 46.5%;
+    margin-bottom: 4em;
+}
+
+#img-3 p{
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 700px;
+    text-align: center;
+    padding: 2em 3em;
+    border-radius: 6px;
+}
+
+h1{
+    color: white;
+    text-shadow: 1px 2px black;
+    font-size: 70px;
+    font-weight: normal;
+    margin: 0;
+}
+
+textarea{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 6px;
+    border: none;
+    width: calc(96% / 2);
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: calc(96% / 2);
 }
